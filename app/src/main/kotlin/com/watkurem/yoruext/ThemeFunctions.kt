@@ -1,4 +1,4 @@
-package com.ohayoubaka.yoru
+package com.watkurem.yoruext
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,10 +9,10 @@ import android.content.pm.Signature
 import android.net.Uri
 import android.os.RemoteException
 import android.widget.Toast
-import com.ohayoubaka.yoru.Constants.BLACKLISTED_APPLICATIONS
-import com.ohayoubaka.yoru.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import com.ohayoubaka.yoru.Constants.MINIMUM_SUBSTRATUM_VERSION
-import com.ohayoubaka.yoru.Constants.OTHER_THEME_SYSTEMS
+import com.watkurem.yoruext.Constants.BLACKLISTED_APPLICATIONS
+import com.watkurem.yoruext.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import com.watkurem.yoruext.Constants.MINIMUM_SUBSTRATUM_VERSION
+import com.watkurem.yoruext.Constants.OTHER_THEME_SYSTEMS
 
 
 @Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!

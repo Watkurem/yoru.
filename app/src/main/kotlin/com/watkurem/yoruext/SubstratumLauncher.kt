@@ -1,4 +1,4 @@
-package com.ohayoubaka.yoru
+package com.watkurem.yoruext
 
 import android.app.Activity
 import android.content.Context
@@ -14,24 +14,24 @@ import com.github.javiersantos.piracychecker.enums.InstallerID
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerCallback
 import com.github.javiersantos.piracychecker.enums.PiracyCheckerError
 import com.github.javiersantos.piracychecker.enums.PirateApp
-import com.ohayoubaka.yoru.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
-import com.ohayoubaka.yoru.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
-import com.ohayoubaka.yoru.Constants.MINIMUM_SUBSTRATUM_VERSION
-import com.ohayoubaka.yoru.Constants.OTHER_THEME_SYSTEMS
-import com.ohayoubaka.yoru.Constants.SHOW_DIALOG_REPEATEDLY
-import com.ohayoubaka.yoru.Constants.SHOW_LAUNCH_DIALOG
-import com.ohayoubaka.yoru.Constants.SUBSTRATUM_FILTER_CHECK
-import com.ohayoubaka.yoru.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
-import com.ohayoubaka.yoru.ThemeFunctions.checkSubstratumIntegrity
-import com.ohayoubaka.yoru.ThemeFunctions.getSelfSignature
-import com.ohayoubaka.yoru.ThemeFunctions.getSelfVerifiedIntentResponse
-import com.ohayoubaka.yoru.ThemeFunctions.getSelfVerifiedPirateTools
-import com.ohayoubaka.yoru.ThemeFunctions.getSelfVerifiedThemeEngines
-import com.ohayoubaka.yoru.ThemeFunctions.getSubstratumFromPlayStore
-import com.ohayoubaka.yoru.ThemeFunctions.getSubstratumUpdatedResponse
-import com.ohayoubaka.yoru.ThemeFunctions.hasOtherThemeSystem
-import com.ohayoubaka.yoru.ThemeFunctions.isCallingPackageAllowed
-import com.ohayoubaka.yoru.ThemeFunctions.isPackageInstalled
+import com.watkurem.yoruext.Constants.ENABLE_KNOWN_THIRD_PARTY_THEME_MANAGERS
+import com.watkurem.yoruext.Constants.ENFORCE_MINIMUM_SUBSTRATUM_VERSION
+import com.watkurem.yoruext.Constants.MINIMUM_SUBSTRATUM_VERSION
+import com.watkurem.yoruext.Constants.OTHER_THEME_SYSTEMS
+import com.watkurem.yoruext.Constants.SHOW_DIALOG_REPEATEDLY
+import com.watkurem.yoruext.Constants.SHOW_LAUNCH_DIALOG
+import com.watkurem.yoruext.Constants.SUBSTRATUM_FILTER_CHECK
+import com.watkurem.yoruext.ThemeFunctions.SUBSTRATUM_PACKAGE_NAME
+import com.watkurem.yoruext.ThemeFunctions.checkSubstratumIntegrity
+import com.watkurem.yoruext.ThemeFunctions.getSelfSignature
+import com.watkurem.yoruext.ThemeFunctions.getSelfVerifiedIntentResponse
+import com.watkurem.yoruext.ThemeFunctions.getSelfVerifiedPirateTools
+import com.watkurem.yoruext.ThemeFunctions.getSelfVerifiedThemeEngines
+import com.watkurem.yoruext.ThemeFunctions.getSubstratumFromPlayStore
+import com.watkurem.yoruext.ThemeFunctions.getSubstratumUpdatedResponse
+import com.watkurem.yoruext.ThemeFunctions.hasOtherThemeSystem
+import com.watkurem.yoruext.ThemeFunctions.isCallingPackageAllowed
+import com.watkurem.yoruext.ThemeFunctions.isPackageInstalled
 
 @Suppress("ConstantConditionIf") // This needs to be defined by the themer, so suppress!
 class SubstratumLauncher : Activity() {

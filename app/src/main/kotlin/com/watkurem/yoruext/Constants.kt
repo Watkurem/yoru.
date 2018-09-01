@@ -1,6 +1,6 @@
-package com.ohayoubaka.yoru
+package com.watkurem.yoruext
 
-import com.ohayoubaka.yoru.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
+import com.watkurem.yoruext.BuildConfig.SUPPORTS_THIRD_PARTY_THEME_SYSTEMS
 
 object Constants {
 

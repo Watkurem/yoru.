@@ -1,10 +1,10 @@
 <resources>
     <!-- Theme name and author name -->
-    <string name="ThemeName">yoru.</string>
-    <string name="ThemeAuthor">ohayoubaka</string>
+    <string name="ThemeName">yoru. extended</string>
+    <string name="ThemeAuthor">Watkurem</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="ThemeAuthorEmail">ohayoubakatheme@gmail.com</string>
+    <string name="ThemeAuthorEmail">inboxnumberzero@zoho.com</string>
     <!-- Theme wallpaper source (must be raw) -->
     <string name="ThemeWallpaperSource"></string>
     <!-- Do your theme support substratum legacy? -->
@@ -20,7 +20,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>yoru.</item>
+        <item>yoru. extended</item>
         <item>For Samsung ROMs (Android 8.0), limited support on other Android 8.0+ devices/ROMs</item>
 		<item>UNINSTALL ALL OVERLAYS BEFORE TAKING A SYSTEM UPDATE!</item>
     </string-array>
